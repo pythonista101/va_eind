@@ -15,7 +15,7 @@ from funcs import *
 import matplotlib.pyplot as plt
 import numpy as np
 import plotly.express as px
-weather = pd.read_csv('city_temperature.csv')
+#weather = pd.read_csv('city_temperature.csv')
 df = pd.read_csv('weather_timeseries.csv', index_col='Timestamp')
 df.index = pd.to_datetime(df.index)
 
